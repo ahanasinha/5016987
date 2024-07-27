@@ -47,7 +47,7 @@ public class ECommercePlatform {
     public static void addProduct() {
         System.out.print("Enter product ID: ");
         int id = sc.nextInt();
-        sc.nextLine();  // consume newline
+        sc.nextLine();
         System.out.print("Enter name: ");
         String name = sc.nextLine();
         System.out.print("Enter category: ");
